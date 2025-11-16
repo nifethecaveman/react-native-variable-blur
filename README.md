@@ -1,10 +1,16 @@
+![VariableBlur](https://github.com/user-attachments/assets/accdd9d2-4c8a-4970-bce0-00842a47ff87)
+
 # react-native-variable-blur
 
-react-native-variable-blur is a react native package built with Nitro
+Variable/progressive/gradient blur for React Native. Does not use a gradient mask unlike other solutions, but rather progressive blur radius.
 
 [![Version](https://img.shields.io/npm/v/react-native-variable-blur.svg)](https://www.npmjs.com/package/react-native-variable-blur)
 [![Downloads](https://img.shields.io/npm/dm/react-native-variable-blur.svg)](https://www.npmjs.com/package/react-native-variable-blur)
 [![License](https://img.shields.io/npm/l/react-native-variable-blur.svg)](https://github.com/patrickkabwe/react-native-variable-blur/LICENSE)
+
+_Based on [`VariableBlur`](https://github.com/nikstar/VariableBlur)_
+
+**WARNING**: This uses a private CAFilter API, and while obfuscated it may trigger App Store rejection.
 
 ## Requirements
 
@@ -20,10 +26,14 @@ react-native-variable-blur is a react native package built with Nitro
 npm install react-native-variable-blur react-native-nitro-modules
 ```
 
-## Credits
+## Usage
 
-Bootstrapped with [create-nitro-module](https://github.com/patrickkabwe/create-nitro-module).
+```tsx
+import { VariableBlur } from 'react-native-variable-blur'
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+const App = () => (
+  <ImageBackground source={require('./image.jpg')}>
+    <VariableBlur blurRadius={10} direction="down" style={{ aspectRatio: 1 }} />
+  </ImageBackground>
+)
+```

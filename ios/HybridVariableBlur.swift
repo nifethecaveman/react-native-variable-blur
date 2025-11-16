@@ -9,13 +9,22 @@ import Foundation
 import UIKit
 
 class HybridVariableBlur : HybridVariableBlurSpec {
-  // UIView
-  var view: UIView = UIView()
-
-  // Props
-  var isRed: Bool = false {
-    didSet {
-      view.backgroundColor = isRed ? .red : .black
+    var view: UIView = VariableBlurUIView()
+    private var blurView: VariableBlurUIView { return view as! VariableBlurUIView }
+    
+    var blurRadius: Double? {
+        didSet {
+            if let blurRadius {
+                self.blurView.maxBlurRadius = blurRadius
+            }
+        }
     }
-  }
+
+    var direction: Direction? {
+        didSet {
+            if let direction {
+                self.blurView.direction = direction
+            }
+        }
+    }
 }

@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '.github/workflows/ios-build.yml'
       - 'example/ios/**'
@@ -47,26 +47,19 @@ concurrency:
 
 jobs:
   build:
-    name: Build iOS Example App (${{ matrix.arch }})
+    name: Build iOS Example App
     runs-on: macOS-15
-    strategy:
-      fail-fast: false
-      matrix:
-        arch: [new, old]
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
       - name: Setup Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:
           xcode-version: 16.4
-
-      - name: Install dependencies (bun)
-        run: bun install
-
-      - name: Disable new architecture in Podfile
-        if: matrix.arch == 'old'
-        run: sed -i "" "s/ENV\['RCT_NEW_ARCH_ENABLED'\] = '1'/ENV['RCT_NEW_ARCH_ENABLED'] = '0'/g" example/ios/Podfile
+      - run: npm ci
 
       - name: Setup Ruby (bundle)
         uses: ruby/setup-ruby@v1

@@ -1,0 +1,11 @@
+{
+  "uiViewClassName": "VariableBlur",
+  "supportsRawText": false,
+  "bubblingEventTypes": {},
+  "directEventTypes": {},
+  "validAttributes": {
+    "blurRadius": true,
+    "direction": true,
+    "hybridRef": true
+  }
+}
